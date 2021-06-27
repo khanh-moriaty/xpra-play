@@ -1,0 +1,11 @@
+# eclipse IDE:
+# /
+/.project
+/.pydevproject
+
+# generated during build:
+/vcs-info
+/build
+/install
+/dist
+/MANIFEST

@@ -1,0 +1,55 @@
+xpra-html5 (4.3-r1-1) UNRELEASED; urgency=low
+  * TODO
+
+ -- Antoine Martin antoine@xpra.org  Tue, 25 May 2021 23:24:13 +0700 +700
+
+xpra-html5 (4.3-r0-1) UNRELEASED; urgency=low
+  * TODO
+
+ -- Antoine Martin antoine@xpra.org  Fri, 21 May 2021 10:56:36 +0700 +700
+
+xpra-html5 (4.2-r889-1) UNRELEASED; urgency=low
+  * select session attributes from list of options exposed by the server
+  * detect vertical refresh rate
+  * hide on-screen keyboard by default on non-mobile devices
+  * tell server to prefer encodings with native decoders
+  * updated documentation
+  * build and packaging fixes, add easy 'deb' and 'rpm' build targets
+  * support older versions of brotli
+  * fix missing clipboard events
+  * fix window focus tracking issues
+  * fix AES encryption (broken by rencoder)
+
+ -- Antoine Martin <antoine@xpra.org>  Tue, 18 May 2021 23:26:59 +0700
+
+xpra-html5 (4.1.2-1) UNRELEASED; urgency=low
+  * build and packaging fixes
+
+ -- Antoine Martin <antoine@xpra.org>  Fri, 02 Apr 2021 11:08:52 +0700
+
+xpra-html5 (4.1.1-3) UNRELEASED; urgency=low
+  * must bump the version in the control file (yet another place..)
+
+ -- Antoine Martin <antoine@xpra.org>  Wed, 31 Mar 2021 00:43:05 +0700
+
+xpra-html5 (4.1.1-2) UNRELEASED; urgency=low
+  * use the correct 'architecture' value 'all'
+
+ -- Antoine Martin <antoine@xpra.org>  Wed, 31 Mar 2021 00:20:40 +0700
+
+xpra-html5 (4.1.1-1) UNRELEASED; urgency=low
+  * packaging fixes
+
+ -- Antoine Martin <antoine@xpra.org>  Mon, 29 Mar 2021 10:37:58 +0700
+
+xpra-html5 (4.1-1) UNRELEASED; urgency=low
+  * split from xpra's repository
+  * open print dialog
+  * added documentation (installation, connection options, authentication, etc)
+  * build option for platforms without any minifiers
+  * add on screen keyboard
+  * better connection diagnostic messages
+  * download connection files and generate connection URIs
+  * support for rgb24 pixel encoding
+
+ -- Antoine Martin <antoine@xpra.org>  Mon, 29 Mar 2021 10:37:58 +0700
